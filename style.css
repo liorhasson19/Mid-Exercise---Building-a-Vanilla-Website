@@ -18,7 +18,8 @@ body {
 header {
     height: 105px;
     width: 100%;
-    border: 1px solid black;
+    padding: 70px 0 0 0;
+    background-color: #909090;
 
 }
 
@@ -26,33 +27,70 @@ header {
     list-style-type: none;
     font-weight: bold;
     display: flex;
-
+    justify-content: flex-end;
 }
 
 ul {
     display: flex;
     list-style: none;
-    padding-left: 20px;
+    padding-left: 0;
     margin: 0;
 }
 
 li {
-    margin: 0 5px;
+    width: auto;
+    margin: 0 15px;
 }
 
 .dropdown {
-
+    position: relative;
 }
 
 .dropdown-content {
     display: none;
+    position: absolute;
+    top: 35px;
+    right: 0%;
+    background-image: url("texture_denim.jfif");
+    background-color: cornflowerblue;
+    /* margin-left: 5px; */
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    white-space: nowrap;
+
+}
+
+ul>li>a, .dropdown-content>a {
+    color: white;
+    font-weight: bold;
+    /* padding: 2px; */
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #005cad;
+
+}
+
+.row > nav > ul > li > a:hover, .dropdown:hover > a, .dropdown-content > a:hover {
+    color: #005cad;
+
+}
+
+.dropdown:hover>.dropdown-content {
+    display: initial;
 }
 
 .row {
     width: 100%;
     border: 1px solid black;
-
 }
+
 footer {
     height: 38px;
     width: 900px;
