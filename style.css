@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     direction: rtl;
+    font-size: 15px;
 }
 
 body {
@@ -39,7 +40,7 @@ ul {
 
 li {
     width: auto;
-    margin: 0 15px;
+    margin: 0 7px;
 }
 
 .dropdown {
@@ -52,37 +53,49 @@ li {
     top: 35px;
     right: 0%;
     background-image: url("texture_denim.jfif");
-    background-color: cornflowerblue;
+    background-color: #909090;
     /* margin-left: 5px; */
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5); */
     z-index: 1;
     white-space: nowrap;
 
 }
 
-ul>li>a, .dropdown-content>a {
+ul > li > a, .dropdown-content > a {
     color: white;
     font-weight: bold;
-    /* padding: 2px; */
     display: block;
+}
+
+.dropdown-content > a {
+    border: solid 0.5px lightgray;
+    padding: 4px;
 }
 
 a {
     text-decoration: none;
 }
 
-a:hover {
+/* a:hover {
     text-decoration: underline;
     color: #005cad;
 
-}
+} */
 
-.row > nav > ul > li > a:hover, .dropdown:hover > a, .dropdown-content > a:hover {
+.row > nav > ul > li > a:hover, .dropdown:hover > a {
     color: #005cad;
+    text-decoration: underline;
 
 }
 
-.dropdown:hover>.dropdown-content {
+.dropdown-content > a:hover {
+    color: #005cad;
+    background-color: lightgray;
+    text-decoration: underline;
+
+}
+
+.dropdown:hover > .dropdown-content {
     display: initial;
 }
 
