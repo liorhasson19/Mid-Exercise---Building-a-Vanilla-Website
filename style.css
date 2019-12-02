@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     direction: rtl;
-    font-size: 15px;
 }
 
 body {
@@ -12,8 +11,9 @@ body {
 
 .container {
     width: 900px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
+    position: relative;
 }
 
 header {
@@ -26,9 +26,13 @@ header {
 
 .top-nav {
     list-style-type: none;
-    font-weight: bold;
     display: flex;
     justify-content: flex-end;
+}
+
+.container > img {
+    position: absolute;
+    top: 33px;
 }
 
 ul {
@@ -38,9 +42,14 @@ ul {
     margin: 0;
 }
 
-li {
+.top-nav > ul > li {
     width: auto;
-    margin: 0 7px;
+    margin: 0 6px;
+    padding-bottom: 10px;
+}
+.bottom-nav > ul > li {
+    width: auto;
+    margin: 0 3px;
 }
 
 .dropdown {
@@ -79,10 +88,10 @@ a {
 /* a:hover {
     text-decoration: underline;
     color: #005cad;
-
+.top-nav > ul > li > a:hover, *****
 } */
 
-.row > nav > ul > li > a:hover, .dropdown:hover > a {
+ .dropdown:hover > a {
     color: #005cad;
     text-decoration: underline;
 
@@ -107,13 +116,28 @@ a {
 footer {
     height: 38px;
     width: 900px;
-    border: 1px solid black;
     position: fixed;
     bottom: 0;
+    background-color: #909090;
+    padding-top: 15px;
 }
 
 .bottom-nav {
     display: flex;
     list-style-type: none;
     margin: auto;
+}
+
+.bottom-nav > ul > li > a {
+    font-size: 13px;
+}
+
+.bottom-nav > ul > li > a.hesder {
+    color: red;
+}
+
+.bottom-nav:hover > ul > li> a:hover {
+    color: #005cad;
+    text-decoration: underline;
+
 }
