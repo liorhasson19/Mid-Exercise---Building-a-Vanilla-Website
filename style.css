@@ -21,7 +21,32 @@ header {
     width: 100%;
     padding: 70px 0 0 0;
     background-color: #909090;
+}
 
+.search-box {
+    position: absolute;
+    display: flex;
+    top: 20px;
+    left: 0;
+    padding-left: 6px;
+    vertical-align: auto;
+}
+
+/* #align-search img {
+    vertical-align: middle;
+} */
+
+button {
+    border: none;
+    height: 19px;
+}
+
+#lang-change {
+    margin-left: 20px;
+}
+
+#lang-change > a {
+    font-size: 12px;
 }
 
 .top-nav {
@@ -30,9 +55,10 @@ header {
     justify-content: flex-end;
 }
 
-.container > img {
+.container>img {
     position: absolute;
     top: 33px;
+    width: 142px;
 }
 
 ul {
@@ -42,12 +68,15 @@ ul {
     margin: 0;
 }
 
-.top-nav > ul > li {
+.top-nav>ul>li {
     width: auto;
-    margin: 0 6px;
+    margin: 0 7.5px;
     padding-bottom: 10px;
 }
-.bottom-nav > ul > li {
+.top-nav a {
+    font-size: 15.5px;
+}
+.bottom-nav>ul>li {
     width: auto;
     margin: 0 3px;
 }
@@ -67,16 +96,15 @@ ul {
     /* box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5); */
     z-index: 1;
     white-space: nowrap;
-
 }
 
-ul > li > a, .dropdown-content > a {
+ul>li>a, .dropdown-content>a {
     color: white;
     font-weight: bold;
     display: block;
 }
 
-.dropdown-content > a {
+.dropdown-content>a {
     border: solid 0.5px lightgray;
     padding: 4px;
 }
@@ -91,26 +119,25 @@ a {
 .top-nav > ul > li > a:hover, *****
 } */
 
- .dropdown:hover > a {
+.dropdown:hover>a, #lang-change > a:hover {
     color: #005cad;
     text-decoration: underline;
-
 }
 
-.dropdown-content > a:hover {
+.dropdown-content>a:hover {
     color: #005cad;
     background-color: lightgray;
     text-decoration: underline;
-
 }
 
-.dropdown:hover > .dropdown-content {
+.dropdown:hover>.dropdown-content {
     display: initial;
 }
 
-.row {
+.main-content {
     width: 100%;
     border: 1px solid black;
+    margin-top: 30px;
 }
 
 footer {
@@ -128,16 +155,15 @@ footer {
     margin: auto;
 }
 
-.bottom-nav > ul > li > a {
+.bottom-nav>ul>li>a {
     font-size: 13px;
 }
 
-.bottom-nav > ul > li > a.hesder {
+.bottom-nav>ul>li>a.hesder {
     color: red;
 }
 
-.bottom-nav:hover > ul > li> a:hover {
+.bottom-nav:hover>ul>li>a:hover {
     color: #005cad;
     text-decoration: underline;
-
 }
