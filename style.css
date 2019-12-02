@@ -23,6 +23,13 @@ header {
     background-color: #909090;
 }
 
+.gray-header {
+    height: 105px;
+position: absolute;
+    display: block;
+    background-color: #909090;
+
+}
 .search-box {
     position: absolute;
     display: flex;
@@ -45,7 +52,7 @@ button {
     margin-left: 20px;
 }
 
-#lang-change > a {
+#lang-change>a {
     font-size: 12px;
 }
 
@@ -73,9 +80,11 @@ ul {
     margin: 0 7.5px;
     padding-bottom: 10px;
 }
+
 .top-nav a {
     font-size: 15.5px;
 }
+
 .bottom-nav>ul>li {
     width: auto;
     margin: 0 3px;
@@ -119,7 +128,7 @@ a {
 .top-nav > ul > li > a:hover, *****
 } */
 
-.dropdown:hover>a, #lang-change > a:hover {
+.dropdown:hover>a, #lang-change>a:hover {
     color: #005cad;
     text-decoration: underline;
 }
@@ -134,10 +143,70 @@ a {
     display: initial;
 }
 
-.main-content {
+.main-content, .bottom-content {
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-image, .bottom-image {
+    width: 33%;
+    position: relative;
+}
+
+.main-image img {
+    border-bottom-right-radius: 20px;
+}
+
+.main-image .text-box {
+    position: absolute;
+    width: 85%;
+    margin: 10px 10px 10px 0;
+    padding: 8px;
+    background-color: gray;
+    color: white;
+    font-size: 14px;
+    bottom: 5px;
+    /* right: 5px; */
+    border-bottom-right-radius: 15px;
+} 
+
+.read-more a {
+    color: white;
+    text-decoration: underline;
+}
+
+.read-more a:hover {
+    color: #005cad;
+}
+
+.read-more {
+    text-align: left;
+}
+.title {
+    font-weight: bold;
+}
+
+
+.bottom-image .bottom-title {
+    position: absolute;
+    width: 85%;
+    margin: 10px 10px 10px 0;
+    padding: 5px 8px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    right: 15px;
+    border-bottom-right-radius: 15px;
+} 
+
+.bottom-image img {
+    position: absolute;
 }
 
 footer {
