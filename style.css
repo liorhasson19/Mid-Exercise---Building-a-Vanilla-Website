@@ -18,7 +18,7 @@ header {
 
 }
 
-nav {
+.top-nav {
 
 }
 
@@ -33,3 +33,10 @@ footer {
     border: 1px solid black;
     position: fixed;
     bottom: 0;
+}
+
+.bottom-nav {
+    display: inline-block;
+    text-decoration: none;
+    margin: auto;
+}
