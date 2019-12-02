@@ -25,11 +25,11 @@ header {
 
 .gray-header {
     height: 105px;
-position: absolute;
+    position: absolute;
     display: block;
     background-color: #909090;
-
 }
+
 .search-box {
     position: absolute;
     display: flex;
@@ -149,13 +149,19 @@ a {
     margin-top: 30px;
 }
 
+.bottom-content {
+height: 216px;
+margin-bottom: 70px;
+}
+
 .row {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 30px;
 }
 
 .main-image, .bottom-image {
-    width: 33%;
+    width: 32%;
     position: relative;
 }
 
@@ -174,24 +180,28 @@ a {
     bottom: 5px;
     /* right: 5px; */
     border-bottom-right-radius: 15px;
-} 
+}
 
 .read-more a {
     color: white;
     text-decoration: underline;
 }
 
-.read-more a:hover {
+.main-image .read-more a:hover, .bottom-image .read-more a:hover {
     color: #005cad;
 }
 
 .read-more {
     text-align: left;
 }
+
 .title {
     font-weight: bold;
 }
 
+.bottom-image {
+    margin-bottom: 70px;
+}
 
 .bottom-image .bottom-title {
     position: absolute;
@@ -201,14 +211,36 @@ a {
     color: black;
     font-size: 14px;
     font-weight: bold;
-    right: 15px;
+    top: 5px;
+    right: 12px;
     border-bottom-right-radius: 15px;
-} 
-
-.bottom-image img {
-    position: absolute;
 }
 
+.bottom-image #img-bgd {
+    position: absolute;
+    height: 216px;
+}
+
+.bottom-image #img-in {
+    position: absolute;
+    top: 66px;
+    right: 25px;
+}
+
+.bottom-image .read-more {
+    position: absolute;
+    width: 85%;
+    margin: 10px 10px 10px 0;
+    padding: 5px 8px;
+    border-bottom-right-radius: 15px;
+    top: 170px;
+    left: 10px;
+    color: #72716d;
+    font-size: 14px;
+}
+.bottom-image .read-more a{
+    color: black;
+}
 footer {
     height: 38px;
     width: 900px;
