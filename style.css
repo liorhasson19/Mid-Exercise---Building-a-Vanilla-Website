@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+.container {
+    width: 900px;
+    border: 1px solid black;
+    margin: auto;
+
+}
+header {
+    height: 105px;
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+nav {
+
+}
+
+.row {
+    width: 100%;
+    border: 1px solid black;
+
+}
+footer {
+    height: 38px;
+    width: 900px;
+    border: 1px solid black;
+    position: fixed;
+    bottom: 0;
