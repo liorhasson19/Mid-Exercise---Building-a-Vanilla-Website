@@ -358,7 +358,7 @@ ul {
     border: 1px solid #CCCCCC;
     padding: 17px 18px 12px 18px;
     border-top-right-radius: 20px;
-    background-color: #FAFAFA;
+    background-image: linear-gradient(#fefefe, #f0f0f0);
     width: 385px;
 }
 
@@ -457,7 +457,17 @@ textarea {
 
 .contact-info-box {
     margin-top: 55px;
-    /* border: 1px solid #cccccc; */
+    border-top-right-radius: 20px;
+    padding: 18px 25px 22px 15px;
+    background-image: url(images/cube_bg.png);
+    width: 292px;
+    height: 175px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+
+}
+
+.contact-info-box2 {
     border-top-right-radius: 20px;
     padding: 18px 25px 22px 15px;
     background-image: url(images/cube_bg.png);
