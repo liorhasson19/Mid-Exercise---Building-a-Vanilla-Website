@@ -16,7 +16,7 @@ body {
 }
 
 .header-main {
-    background-image: url(header_bg.png);
+    background-image: url(images/header_bg.png);
 
 }
 
@@ -24,7 +24,7 @@ header {
     height: 105px;
     width: 100%;
     padding: 70px 0 0 0;
-    background-image: url(header_bg.png);
+    background-image: url(images/header_bg.png);
 }
 
 .gray-header {
@@ -34,7 +34,7 @@ header {
     height: 105px;
     position: absolute;
     display: block;
-    background-image: url(header_bg.png);
+    background-image: url(images/header_bg.png);
 }
 
 .search-box {
@@ -103,7 +103,7 @@ button {
     position: absolute;
     top: 35px;
     right: 0%;
-    background-image: url(menu_dropdown_bg.png);
+    background-image: url(images/menu_dropdown_bg.png);
     background-size: 100%;
     z-index: 9999999;
     white-space: nowrap;
@@ -197,7 +197,7 @@ a {
 .bottom-box {
     width: 32.5%;
     display: flex;
-    background-image: url(cube_bg.png);
+    background-image: url(images/cube_bg.png);
     background-size: 100% 216px;
 }
 
@@ -271,7 +271,6 @@ a {
 .footer {
     width: 900px;
     margin: auto;
-    /* background-image: url(images/footer_bg.png); */
 }
 
 ul {
