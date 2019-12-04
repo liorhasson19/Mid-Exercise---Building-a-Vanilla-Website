@@ -44,6 +44,18 @@ header {
     left: 0;
     padding-left: 6px;
     vertical-align: auto;
+    font-size: 12px;
+    font-weight: bold;
+    align-items: center;
+}
+.search-box > a {
+    margin-left: 10px;
+ }
+ 
+.search-box > a:visited {
+   text-decoration: none;
+   color: white;
+   margin-left: 10px;
 }
 
 button {
@@ -63,6 +75,7 @@ button {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .container>.paz-logo {
