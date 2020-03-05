@@ -18,9 +18,8 @@ body {
 
 .header-main {
     display: flex;
-    background-image: url(images/header_bg.png);
+    background-image: url(Images/header_bg.png);
     height: 105px;
-
 }
 
 /* header {
@@ -103,7 +102,7 @@ body {
     position: absolute;
     top: 35px;
     right: 0%;
-    background-image: url(images/menu_dropdown_bg.png);
+    background-image: url(Images/menu_dropdown_bg.png);
     background-size: 100%;
     z-index: 9999999;
     white-space: nowrap;
@@ -199,7 +198,7 @@ a {
     width: 32.5%;
     height: 216px;
     display: flex;
-    background-image: url(images/cube_bg.png);
+    background-image: url(Images/cube_bg.png);
     background-size: 100% 216px;
 }
 
@@ -337,7 +336,7 @@ ul {
 .button {
     width: 110px;
     height: 36px;
-    background-image: url(images/side_menu.png);
+    background-image: url(Images/side_menu.png);
     border: none;
     color: #6d6d6d;
     text-align: center;
@@ -465,7 +464,7 @@ textarea {
     margin-top: 55px;
     border-top-right-radius: 20px;
     padding: 18px 25px 22px 15px;
-    background-image: url(images/cube_bg.png);
+    background-image: url(Images/cube_bg.png);
     width: 292px;
     height: 175px;
     margin-bottom: 10px;
@@ -475,7 +474,7 @@ textarea {
 .contact-info-box2 {
     border-top-right-radius: 20px;
     padding: 18px 25px 22px 15px;
-    background-image: url(images/cube_bg.png);
+    background-image: url(Images/cube_bg.png);
     width: 292px;
     height: 175px;
     margin-bottom: 10px;
